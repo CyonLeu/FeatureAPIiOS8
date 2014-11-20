@@ -29,11 +29,11 @@ then UIAlertController has two style: UIAlertControllerStyleActionSheet, UIAlert
 ### Demo:
  alertStyle
  
-![Alt alert](/Users/netease/Documents/ObjcDemo/FeatureAPIiOS8/screenshot/shotscreen_alert.png)
+![Alt alert](https://raw.githubusercontent.com/CyonLeu/FeatureAPIiOS8/master/screenshot/shotscreen_alert.png)
 
 ActionSheetStyle 
 
- ![Alt actionsheet](/Users/netease/Desktop/iOS Simulator Screen Shot 2014年11月19日 下午8.13.11.png)
+ ![Alt actionsheet](https://raw.githubusercontent.com/CyonLeu/FeatureAPIiOS8/master/screenshot/shotscreen_actionsheet.png)
 
 
 # 2、UIVisualEffectView
@@ -74,17 +74,17 @@ BlurStyle: UIBlurEffectStyleExtraLight, UIBlurEffectStyleLight, UIBlurEffectStyl
 ### Demo:
 UIBlurEffectStyleExtraLight:
 
- ![Alt UIBlurEffectStyleExtraLight]( /Users/netease/Desktop/iOS Simulator Screen Shot 2014年11月19日 下午8.12.52.png)
+ ![Alt UIBlurEffectStyleExtraLight](https://raw.githubusercontent.com/CyonLeu/FeatureAPIiOS8/master/screenshot/shotscreen_extralightBlur.png)
  
  UIBlurEffectStyleLight:
  
-  ![Alt UIBlurEffectStyleLight](/Users/netease/Desktop/iOS Simulator Screen Shot 2014年11月19日 下午8.12.50.png)
+  ![Alt UIBlurEffectStyleLight](https://raw.githubusercontent.com/CyonLeu/FeatureAPIiOS8/master/screenshot/shotscreen_lightBlur.png)
   
   UIBlurEffectStyleDark:
  
-  ![Alt UIBlurEffectStyleDark](/Users/netease/Desktop/iOS Simulator Screen Shot 2014年11月19日 下午8.12.49.png )
+  ![Alt UIBlurEffectStyleDark](https://raw.githubusercontent.com/CyonLeu/FeatureAPIiOS8/master/screenshot/shotscreen_dartBlur.png)
  
  Partical Effect:
  
-  ![Alt Partical](/Users/netease/Desktop/iOS Simulator Screen Shot 2014年11月20日 上午11.05.27.png)
+  ![Alt Partical](https://raw.githubusercontent.com/CyonLeu/FeatureAPIiOS8/master/screenshot/shotscreen_ParticalBlur.png)
   
