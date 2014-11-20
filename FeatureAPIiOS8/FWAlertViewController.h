@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FWBaseViewController.h"
 
-@interface FWAlertViewController : UIViewController
+@interface FWAlertViewController : FWBaseViewController
 
 @end

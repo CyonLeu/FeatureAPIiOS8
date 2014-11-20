@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E65B0A8E1A1C6FF60007913C /* FWAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E65B0A8D1A1C6FF60007913C /* FWAlertViewController.m */; };
+		E65B0A911A1C73260007913C /* FWBlurEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E65B0A901A1C73260007913C /* FWBlurEffectViewController.m */; };
+		E65B0A971A1CBA820007913C /* FWPhotoKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E65B0A961A1CBA820007913C /* FWPhotoKitViewController.m */; };
+		E65B0A9B1A1CBD860007913C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65B0A9A1A1CBD860007913C /* CFNetwork.framework */; };
+		E65B0A9D1A1CBD8B0007913C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65B0A9C1A1CBD8B0007913C /* QuartzCore.framework */; };
+		E65B0A9F1A1CBD960007913C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65B0A9E1A1CBD960007913C /* CoreGraphics.framework */; };
+		E65B0AA11A1CBDCE0007913C /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65B0AA01A1CBDCE0007913C /* Reveal.framework */; };
+		E65B0AA21A1CBDD70007913C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65B0A9A1A1CBD860007913C /* CFNetwork.framework */; };
+		E65B0AA31A1CBDDE0007913C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65B0A9E1A1CBD960007913C /* CoreGraphics.framework */; };
+		E65B0AA41A1CBDE30007913C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65B0A9C1A1CBD8B0007913C /* QuartzCore.framework */; };
+		E65B0AA61A1CC24E0007913C /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65B0AA51A1CC24E0007913C /* Photos.framework */; };
+		E65B0AA81A1CC2570007913C /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65B0AA71A1CC2570007913C /* PhotosUI.framework */; };
 		E6FA99BA1A1C335D00ACCF56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FA99B91A1C335D00ACCF56 /* main.m */; };
 		E6FA99BD1A1C335D00ACCF56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FA99BC1A1C335D00ACCF56 /* AppDelegate.m */; };
 		E6FA99C01A1C335D00ACCF56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FA99BF1A1C335D00ACCF56 /* ViewController.m */; };
@@ -14,6 +26,7 @@
 		E6FA99C51A1C335D00ACCF56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6FA99C41A1C335D00ACCF56 /* Images.xcassets */; };
 		E6FA99C81A1C335D00ACCF56 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6FA99C61A1C335D00ACCF56 /* LaunchScreen.xib */; };
 		E6FA99D41A1C335D00ACCF56 /* FeatureAPIiOS8Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FA99D31A1C335D00ACCF56 /* FeatureAPIiOS8Tests.m */; };
+		E6FA99DF1A1C451B00ACCF56 /* FWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FA99DE1A1C451B00ACCF56 /* FWBaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +40,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E65B0A8C1A1C6FF60007913C /* FWAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWAlertViewController.h; sourceTree = "<group>"; };
+		E65B0A8D1A1C6FF60007913C /* FWAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWAlertViewController.m; sourceTree = "<group>"; };
+		E65B0A8F1A1C73260007913C /* FWBlurEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWBlurEffectViewController.h; sourceTree = "<group>"; };
+		E65B0A901A1C73260007913C /* FWBlurEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWBlurEffectViewController.m; sourceTree = "<group>"; };
+		E65B0A951A1CBA820007913C /* FWPhotoKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWPhotoKitViewController.h; sourceTree = "<group>"; };
+		E65B0A961A1CBA820007913C /* FWPhotoKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWPhotoKitViewController.m; sourceTree = "<group>"; };
+		E65B0A9A1A1CBD860007913C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E65B0A9C1A1CBD8B0007913C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E65B0A9E1A1CBD960007913C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E65B0AA01A1CBDCE0007913C /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		E65B0AA51A1CC24E0007913C /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		E65B0AA71A1CC2570007913C /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
 		E6FA99B41A1C335D00ACCF56 /* FeatureAPIiOS8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeatureAPIiOS8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6FA99B81A1C335D00ACCF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6FA99B91A1C335D00ACCF56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +65,8 @@
 		E6FA99CD1A1C335D00ACCF56 /* FeatureAPIiOS8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeatureAPIiOS8Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6FA99D21A1C335D00ACCF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6FA99D31A1C335D00ACCF56 /* FeatureAPIiOS8Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeatureAPIiOS8Tests.m; sourceTree = "<group>"; };
+		E6FA99DD1A1C451B00ACCF56 /* FWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWBaseViewController.h; sourceTree = "<group>"; };
+		E6FA99DE1A1C451B00ACCF56 /* FWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWBaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +74,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E65B0AA81A1CC2570007913C /* PhotosUI.framework in Frameworks */,
+				E65B0AA61A1CC24E0007913C /* Photos.framework in Frameworks */,
+				E65B0AA41A1CBDE30007913C /* QuartzCore.framework in Frameworks */,
+				E65B0AA31A1CBDDE0007913C /* CoreGraphics.framework in Frameworks */,
+				E65B0AA21A1CBDD70007913C /* CFNetwork.framework in Frameworks */,
+				E65B0AA11A1CBDCE0007913C /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,12 +87,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E65B0A9F1A1CBD960007913C /* CoreGraphics.framework in Frameworks */,
+				E65B0A9D1A1CBD8B0007913C /* QuartzCore.framework in Frameworks */,
+				E65B0A9B1A1CBD860007913C /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E65B0A8B1A1C6FD40007913C /* feature */ = {
+			isa = PBXGroup;
+			children = (
+				E65B0A8C1A1C6FF60007913C /* FWAlertViewController.h */,
+				E65B0A8D1A1C6FF60007913C /* FWAlertViewController.m */,
+				E65B0A8F1A1C73260007913C /* FWBlurEffectViewController.h */,
+				E65B0A901A1C73260007913C /* FWBlurEffectViewController.m */,
+				E65B0A951A1CBA820007913C /* FWPhotoKitViewController.h */,
+				E65B0A961A1CBA820007913C /* FWPhotoKitViewController.m */,
+			);
+			name = feature;
+			sourceTree = "<group>";
+		};
 		E6FA99AB1A1C335D00ACCF56 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +130,9 @@
 		E6FA99B61A1C335D00ACCF56 /* FeatureAPIiOS8 */ = {
 			isa = PBXGroup;
 			children = (
+				E65B0A8B1A1C6FD40007913C /* feature */,
+				E6FA99DD1A1C451B00ACCF56 /* FWBaseViewController.h */,
+				E6FA99DE1A1C451B00ACCF56 /* FWBaseViewController.m */,
 				E6FA99BB1A1C335D00ACCF56 /* AppDelegate.h */,
 				E6FA99BC1A1C335D00ACCF56 /* AppDelegate.m */,
 				E6FA99BE1A1C335D00ACCF56 /* ViewController.h */,
@@ -96,6 +148,12 @@
 		E6FA99B71A1C335D00ACCF56 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E65B0AA71A1CC2570007913C /* PhotosUI.framework */,
+				E65B0AA51A1CC24E0007913C /* Photos.framework */,
+				E65B0A9E1A1CBD960007913C /* CoreGraphics.framework */,
+				E65B0A9C1A1CBD8B0007913C /* QuartzCore.framework */,
+				E65B0A9A1A1CBD860007913C /* CFNetwork.framework */,
+				E65B0AA01A1CBDCE0007913C /* Reveal.framework */,
 				E6FA99B81A1C335D00ACCF56 /* Info.plist */,
 				E6FA99B91A1C335D00ACCF56 /* main.m */,
 			);
@@ -219,9 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6FA99DF1A1C451B00ACCF56 /* FWBaseViewController.m in Sources */,
 				E6FA99C01A1C335D00ACCF56 /* ViewController.m in Sources */,
+				E65B0A8E1A1C6FF60007913C /* FWAlertViewController.m in Sources */,
+				E65B0A971A1CBA820007913C /* FWPhotoKitViewController.m in Sources */,
 				E6FA99BD1A1C335D00ACCF56 /* AppDelegate.m in Sources */,
 				E6FA99BA1A1C335D00ACCF56 /* main.m in Sources */,
+				E65B0A911A1C73260007913C /* FWBlurEffectViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,8 +407,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FeatureAPIiOS8",
+				);
 				INFOPLIST_FILE = FeatureAPIiOS8/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -355,8 +423,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FeatureAPIiOS8",
+				);
 				INFOPLIST_FILE = FeatureAPIiOS8/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -368,12 +442,14 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/FeatureAPIiOS8Tests",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = FeatureAPIiOS8Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeatureAPIiOS8.app/FeatureAPIiOS8";
@@ -387,8 +463,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/FeatureAPIiOS8Tests",
 				);
 				INFOPLIST_FILE = FeatureAPIiOS8Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeatureAPIiOS8.app/FeatureAPIiOS8";
@@ -414,6 +492,7 @@
 				E6FA99D91A1C335D00ACCF56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6FA99DA1A1C335D00ACCF56 /* Build configuration list for PBXNativeTarget "FeatureAPIiOS8Tests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +501,7 @@
 				E6FA99DC1A1C335D00ACCF56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

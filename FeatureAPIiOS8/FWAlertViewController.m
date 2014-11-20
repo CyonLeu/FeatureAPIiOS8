@@ -34,4 +34,50 @@
 }
 */
 
+- (IBAction)onActionSheetButton:(id)sender
+{
+    [self showAlertController:UIAlertControllerStyleActionSheet];
+}
+
+- (IBAction)onAlertButton:(id)sender
+{
+    [self showAlertController:UIAlertControllerStyleAlert];
+}
+
+- (void)showAlertController:(UIAlertControllerStyle)alertStyle
+{
+    //Here you set style is actionSheet or Alert
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Title" message:@"This is a message for showing" preferredStyle:alertStyle];// UIAlertControllerStyleActionSheet
+    
+    //Before iOS 8, we always do click event at delegate method, we hate to seperate event from the index =1,2,3...
+    //Now we love the Block to do what we want to do.
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
+        //if you want to do something what you do
+        NSLog(@"click done button");
+    }];
+    
+    __weak typeof (self) weakSelf = self;
+    UIAlertAction *doneAction = [UIAlertAction actionWithTitle:@"Done" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        NSLog(@"click done button");
+        //I want to show another viewController
+        UIViewController *viewController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"EmptyVC"];
+        [weakSelf.navigationController pushViewController:viewController animated:YES];
+    }];
+    
+    UIAlertAction *destAction = [UIAlertAction actionWithTitle:@"Delete" style:UIAlertActionStyleDestructive handler:^(UIAlertAction *action) {
+        //if you want to do something what you do
+        NSLog(@"Delete button");
+    }];
+    
+    [alertController addAction:cancelAction];
+    [alertController addAction:doneAction];
+    [alertController addAction:destAction];
+    
+    //You must user presentVC, if use pushVC,it will crash after clicking action button.
+    [self presentViewController:alertController animated:YES completion:^{
+        
+    }];
+//    [self.navigationController pushViewController:alertController animated:YES];
+}
+
 @end

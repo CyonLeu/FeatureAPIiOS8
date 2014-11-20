@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "FWBaseViewController.h"
+
+@interface ViewController : FWBaseViewController
 
 
 @end

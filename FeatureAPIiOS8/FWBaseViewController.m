@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    if ([[UIDevice currentDevice].systemVersion floatValue] > 7.0) {
+        self.edgesForExtendedLayout = UIRectEdgeNone;
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning {
