@@ -29,7 +29,7 @@ then UIAlertController has two style: UIAlertControllerStyleActionSheet, UIAlert
 ### Demo:
  alertStyle
  
-![Alt alert](/Users/netease/Desktop/iOS Simulator Screen Shot 2014年11月19日 下午8.13.07.png)
+![Alt alert](/Users/netease/Documents/ObjcDemo/FeatureAPIiOS8/screenshot/shotscreen_alert.png)
 
 ActionSheetStyle 
 
